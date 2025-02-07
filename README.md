@@ -23,7 +23,7 @@ Wartość podajemy jako xx stopni yy minut zz.zz sekund.
 
 Szachy:
 Projekt 2 – 60%
-Program do gry w szachy dla dwóch osób. Szachownica rysowana jest na
+Program do gry w szachy dla dwóch osób.  Szachownica rysowana jest na
 podstawie symboli w kodzie ASCII. W programie uwzględniamy sposób
 poruszania się wszystkich figur. Ponadto uwzględnić należy:
 danie mata;
