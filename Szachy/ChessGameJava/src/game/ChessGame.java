@@ -42,7 +42,6 @@ public class ChessGame {
             }
 
             try {
-                // Pobieramy informacje o ruchu
                 Move move = new Move(input, whiteTurn);
 
                 int startY = move.getStartY();
@@ -148,10 +147,5 @@ public class ChessGame {
         } catch (Exception e) {
             System.out.println("Błąd przy zapisie partii do pliku: " + e.getMessage());
         }
-    }
-
-    public static void main(String[] args) {
-        ChessGame game = new ChessGame();
-        game.start();
     }
 }
